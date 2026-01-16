@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Olá</title>
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <i class="fas fa-globe"></i>
+          <span>Site Olá</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+          <li><a href="#"><i class="fas fa-info-circle"></i> Sobre</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i> Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="hero">
+        <h1 class="main-title">Olá!</h1>
+        <p class="subtitle">Bem-vindo ao nosso site simples e elegante</p>
+        
+        <div class="message-box">
+          <div class="message-content">
+            <i class="fas fa-hand-wave"></i>
+            <p>Este é um site de exemplo criado para demonstrar como criar uma página web com HTML, CSS e JavaScript.</p>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Estrutura semântica e moderna</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Estilos responsivos e animações</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Interatividade e dinamismo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="interactive-section">
+        <h2>Interaja com a página</h2>
+        <div class="controls">
+          <button id="changeColorBtn" class="btn">
+            <i class="fas fa-paint-brush"></i> Mudar Cor
+          </button>
+          <button id="addMessageBtn" class="btn">
+            <i class="fas fa-plus"></i> Adicionar Mensagem
+          </button>
+          <button id="animateBtn" class="btn">
+            <i class="fas fa-play"></i> Animar Título
+          </button>
+        </div>
+        
+        <div class="messages-container">
+          <h3>Mensagens:</h3>
+          <div id="messagesList" class="messages-list">
+            <div class="message-item">
+              <i class="fas fa-comment"></i>
+              <span>Clique nos botões para adicionar mais mensagens!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <i class="fas fa-heart"></i>
+          <span>Site Olá</span>
+        </div>
+        <p class="footer-text">Criado com ❤️ usando HTML, CSS e JavaScript</p>
+        <p class="copyright">© 2024 Site Olá. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
